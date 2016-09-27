@@ -1,0 +1,18 @@
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+@import '~bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss';
+@import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
+.queue-list {
+  border: dashed 1px #f00;
+}
+
+.yt-embed {
+  border: solid 2px #f00;
+
+  > iframe {
+    border: 0;
+    width: 100%;
+    height: 630px;
+  }
+}
+
